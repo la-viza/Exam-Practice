@@ -1,0 +1,320 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+* .top-section {
+  background-image: url(/img/header.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+* .top-section .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  color: white;
+  font-weight: bold;
+}
+* .top-section .header__login-section {
+  display: flex;
+  gap: 1rem;
+}
+* .top-section .header__logo {
+  display: none;
+}
+* .top-section .header__button-signup a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 8px 18px;
+  border-radius: 30px;
+}
+* .top-section .section__hero {
+  text-align: center;
+  padding-top: 6rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+* .top-section .section__hero h1 {
+  font-size: 2rem;
+  padding: 1.5rem;
+}
+* .top-section .section__hero h2 {
+  text-transform: uppercase;
+  text-wrap: wrap;
+  font-size: 2.5rem;
+  padding: 2rem;
+}
+* .top-section .section__hero p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.7rem;
+  padding: 10px 80px;
+  text-wrap: wrap;
+}
+* .top-section .section__hero__button-red {
+  padding: 3rem;
+  width: 100%;
+}
+* .top-section .section__hero a {
+  padding: 18px 40px;
+  background-color: #ff4e50;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 30px;
+}
+* .section__cards {
+  padding: 2rem 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+* .section__cards h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+* .section__cards__columns {
+  display: flex;
+  flex-direction: column;
+}
+* .section__cards__columns__one {
+  background-image: url(/img/step1desk.png);
+}
+* .section__cards__columns__two {
+  background-image: url(/img/step2desk.png);
+}
+* .section__cards__columns__three {
+  background-image: url(/img/step3desk.png);
+}
+* .section__cards__columns__one, * .section__cards__columns__two, * .section__cards__columns__three {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2rem 1.5rem;
+  border-radius: 10px;
+  overflow: none;
+  background-position: center center;
+  margin-bottom: 2rem;
+}
+* .section__cards__columns__one__button-step-one, * .section__cards__columns__two__button-step-one, * .section__cards__columns__three__button-step-one {
+  padding: 4rem 0 2.2rem;
+}
+* .section__cards__columns__one__button-step-one a, * .section__cards__columns__two__button-step-one a, * .section__cards__columns__three__button-step-one a {
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  background-color: #ff4e50;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 30px;
+  letter-spacing: 5px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+* .section__cards__columns__one h4, * .section__cards__columns__two h4, * .section__cards__columns__three h4 {
+  font-size: 3rem;
+  color: white;
+}
+* .section__cards__columns__one p, * .section__cards__columns__two p, * .section__cards__columns__three p {
+  padding: 2rem 0 1.5rem;
+  font-size: 1.5rem;
+  color: white;
+  opacity: 0.8;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+* .section__bottom {
+  padding: 3rem;
+}
+* .section__bottom h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+* .section__bottom p {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: 300;
+  font-size: 2rem;
+  text-wrap: wrap;
+}
+* .section__bottom__input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 3rem 0;
+}
+* .section__bottom__input input {
+  width: 100%;
+  padding: 20px;
+  border: 2px solid #999999;
+  border-radius: 10px;
+}
+* .section__bottom__input input::-moz-placeholder {
+  font-size: 1.5rem;
+}
+* .section__bottom__input input::placeholder {
+  font-size: 1.5rem;
+}
+* .section__bottom__input__button {
+  padding: 3rem 0 1rem;
+  text-align: center;
+}
+* .section__bottom__input__button a {
+  padding: 18px 80px;
+  background-color: #ff4e50;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 30px;
+  width: inherit;
+}
+* hr {
+  border: 3px solid #ff4e50;
+  width: 100vw;
+}
+* .footer {
+  padding: 2rem;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+* .footer h2 {
+  color: #ff4e50;
+  font-size: 2rem;
+}
+* .footer__one h4 {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+* .footer__one ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  gap: 10px;
+}
+* .footer__one ul a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #999999;
+}
+* .footer__two {
+  padding: 1.5rem 0;
+  font-weight: bold;
+}
+* .footer__two ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  gap: 10px;
+}
+* .footer__two ul a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #1a1915;
+}
+
+@media screen and (min-width: 768px) {
+  .top-section {
+    height: 90vh;
+  }
+  .top-section .header {
+    width: 100%;
+    justify-content: space-between;
+    gap: 0;
+    padding: 2rem;
+  }
+  .top-section .header__logo {
+    display: block;
+  }
+  .top-section .header__login-section {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .top-section .section__hero {
+    text-align: center;
+    padding-top: 8rem;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+  .top-section .section__hero h1 {
+    display: none;
+  }
+  .top-section .section__hero h1 {
+    font-size: 1.5rem;
+  }
+  .top-section .section__hero h2 {
+    text-transform: uppercase;
+    text-wrap: wrap;
+    font-size: 2.2rem;
+    padding: 0.5rem;
+  }
+  .top-section .section__hero__button-red {
+    padding: 3rem;
+    width: 100%;
+  }
+  .section__cards {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .section__cards__columns {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    width: 30% 30% 30%;
+  }
+  .section__cards__columns__one, .section__cards__columns__two, .section__cards__columns__three {
+    min-width: 30%;
+  }
+  .section__cards__columns h4 {
+    font-size: 2rem;
+  }
+  .section__cards__columns p {
+    padding: 1.5rem 0 1rem;
+    font-size: 1.2rem;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer h4 {
+    padding-top: 0;
+  }
+  .footer ul {
+    display: block;
+  }
+  .footer__two {
+    padding-top: 0;
+  }
+  .section__bottom {
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 940px) {
+  .top-section {
+    height: 90vh;
+  }
+  .section__cards {
+    margin: 0 10rem;
+  }
+  .section__cards h3 {
+    padding: 4rem 0;
+  }
+}/*# sourceMappingURL=style.css.map */

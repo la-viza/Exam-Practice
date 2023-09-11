@@ -1,0 +1,397 @@
+$font-header: "Montserrat", sans-serif;
+$font-paragraph: "Roboto", sans-serif;
+$color-primary: #ffff;
+$color-secondary: #1a1915;
+$color-hover-text: #333333;
+$color-paragraph: #00000099;
+$color-footer: #999999;
+$color-accent: #ff4e50;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  // MOBILE FIRST LAYOUT
+
+  .top-section {
+    background-image: url(/img/header.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+
+    .header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      padding: 2rem 0;
+      font-family: $font-header;
+      font-size: 1.6rem;
+      color: $color-primary;
+      font-weight: bold;
+
+      &__login-section {
+        display: flex;
+        gap: 1rem;
+      }
+
+      &__logo {
+        display: none;
+      }
+
+      &__button-signup a {
+        text-decoration: none;
+        color: $color-primary;
+        border: 2px solid $color-primary;
+        padding: 8px 18px;
+        border-radius: 30px;
+      }
+    }
+
+    .section__hero {
+      text-align: center;
+      padding-top: 6rem;
+      color: $color-primary;
+      font-family: $font-header;
+
+      h1 {
+        font-size: 2rem;
+        padding: 1.5rem;
+      }
+
+      h2 {
+        text-transform: uppercase;
+        text-wrap: wrap;
+        font-size: 2.5rem;
+        padding: 2rem;
+      }
+
+      p {
+        font-family: $font-paragraph;
+        font-weight: 300;
+        font-size: 1.7rem;
+        padding: 10px 80px;
+        text-wrap: wrap;
+      }
+
+      &__button-red {
+        padding: 3rem;
+        width: 100%;
+      }
+
+      a {
+        padding: 18px 40px;
+        background-color: $color-accent;
+        text-decoration: none;
+        color: $color-primary;
+        font-weight: bold;
+        font-size: 1rem;
+        border-radius: 30px;
+      }
+    }
+  }
+
+  .section__cards {
+    padding: 2rem 1rem;
+    font-family: $font-header;
+
+    h3 {
+      font-family: $font-header;
+      font-size: 3rem;
+      padding-bottom: 2rem;
+      text-align: center;
+    }
+
+    &__columns {
+      display: flex;
+      flex-direction: column;
+
+      &__one {
+        background-image: url(/img/step1desk.png);
+      }
+      &__two {
+        background-image: url(/img/step2desk.png);
+      }
+      &__three {
+        background-image: url(/img/step3desk.png);
+      }
+
+      &__one,
+      &__two,
+      &__three {
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 2rem 1.5rem;
+        border-radius: 10px;
+        overflow: none;
+        background-position: center center;
+        // top: 0px;
+        // left: 0px;
+        // width: 100%;
+        // height: 100%;
+        margin-bottom: 2rem;
+
+        &__button-step-one {
+          padding: 4rem 0 2.2rem;
+
+          a {
+            text-decoration: none;
+            padding: 0.5rem 1.5rem;
+            background-color: $color-accent;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            color: $color-primary;
+            border-radius: 30px;
+            letter-spacing: 5px;
+            font-weight: 400;
+            font-family: $font-paragraph;
+          }
+        }
+
+        h4 {
+          font-size: 3rem;
+          color: $color-primary;
+        }
+
+        p {
+          padding: 2rem 0 1.5rem;
+          font-size: 1.5rem;
+          color: $color-primary;
+          opacity: 0.8;
+          font-family: $font-paragraph;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+  .section__bottom {
+    padding: 3rem;
+
+    h4 {
+      font-family: $font-header;
+      font-size: 3rem;
+      padding-bottom: 1rem;
+      text-align: center;
+    }
+    p {
+      font-family: $font-paragraph;
+      text-align: center;
+      font-weight: 300;
+      font-size: 2rem;
+      text-wrap: wrap;
+    }
+
+    &__input {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      padding: 3rem 0;
+
+      input {
+        width: 100%;
+        padding: 20px;
+        border: 2px solid $color-footer;
+        border-radius: 10px;
+
+        &::placeholder {
+          font-size: 1.5rem;
+        }
+      }
+
+      &__button {
+        padding: 3rem 0 1rem;
+        text-align: center;
+
+        a {
+          padding: 18px 80px;
+          background-color: $color-accent;
+          text-decoration: none;
+          color: $color-primary;
+          font-weight: bold;
+          font-size: 1.5rem;
+          border-radius: 30px;
+          width: inherit;
+        }
+      }
+    }
+  }
+
+  hr {
+    border: 3px solid $color-accent;
+    width: 100vw;
+  }
+
+  .footer {
+    padding: 2rem;
+    text-align: center;
+    font-family: $font-header;
+    h2 {
+      color: $color-accent;
+
+      font-size: 2rem;
+    }
+
+    &__one {
+      h4 {
+        font-size: 1.5rem;
+        padding: 1rem 0;
+      }
+      ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: center;
+        gap: 10px;
+
+        a {
+          text-decoration: none;
+          font-size: 1.3rem;
+          color: $color-footer;
+        }
+      }
+    }
+
+    &__two {
+      padding: 1.5rem 0;
+
+      font-weight: bold;
+
+      ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: center;
+        gap: 10px;
+
+        a {
+          text-decoration: none;
+          font-size: 1.5rem;
+          color: $color-secondary;
+        }
+      }
+    }
+  }
+}
+
+// TABLET LAYOUT
+@media screen and (min-width: 768px) {
+  .top-section {
+    height: 90vh;
+    .header {
+      width: 100%;
+      justify-content: space-between;
+      gap: 0;
+      padding: 2rem;
+
+      &__logo {
+        display: block;
+      }
+
+      &__login-section {
+        display: flex;
+        gap: 1.5rem;
+      }
+    }
+
+    .section__hero {
+      h1 {
+        display: none;
+      }
+
+      text-align: center;
+      padding-top: 8rem;
+      color: $color-primary;
+      font-family: $font-header;
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      h2 {
+        text-transform: uppercase;
+        text-wrap: wrap;
+        font-size: 2.2rem;
+        padding: 0.5rem;
+      }
+
+      &__button-red {
+        padding: 3rem;
+        width: 100%;
+      }
+    }
+  }
+
+  .section__cards {
+    display: flex;
+    flex-direction: column;
+
+    padding: 1rem;
+
+    &__columns {
+      display: flex;
+      flex-direction: row;
+
+      gap: 0.5rem;
+      width: 30% 30% 30%;
+
+      &__one,
+      &__two,
+      &__three {
+        min-width: 30%;
+      }
+
+      h4 {
+        font-size: 2rem;
+      }
+
+      p {
+        padding: 1.5rem 0 1rem;
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+
+    h4 {
+      padding-top: 0;
+    }
+    ul {
+      display: block;
+    }
+
+    &__two {
+      padding-top: 0;
+    }
+  }
+
+  .section__bottom {
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    margin: auto;
+  }
+}
+
+// DESKTOP LAYOUT
+@media screen and (min-width: 940px) {
+  .top-section {
+    height: 90vh;
+  }
+
+  .section__cards {
+    margin: 0 10rem;
+
+    h3 {
+      padding: 4rem 0;
+    }
+  }
+}
