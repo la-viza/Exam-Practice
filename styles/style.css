@@ -172,12 +172,12 @@
   text-align: center;
 }
 * .section__bottom__input__button a {
-  padding: 18px 80px;
+  padding: 18px 70px;
   background-color: #ff4e50;
   text-decoration: none;
   color: white;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1rem;
   border-radius: 30px;
   width: inherit;
 }
