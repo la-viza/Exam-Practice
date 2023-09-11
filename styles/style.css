@@ -4,7 +4,7 @@
   padding: 0;
 }
 * .top-section {
-  background-image: url(/img/header.png);
+  background-image: url(/Exam-Practice/img/header.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -88,13 +88,13 @@
   flex-direction: column;
 }
 * .section__cards__columns__one {
-  background-image: url(/img/step1desk.png);
+  background-image: url(/Exam-Practice/img/step1desk.png);
 }
 * .section__cards__columns__two {
-  background-image: url(/img/step2desk.png);
+  background-image: url(/Exam-Practice/img/step2desk.png);
 }
 * .section__cards__columns__three {
-  background-image: url(/img/step3desk.png);
+  background-image: url(/Exam-Practice/img/step3desk.png);
 }
 * .section__cards__columns__one, * .section__cards__columns__two, * .section__cards__columns__three {
   background-size: cover;

@@ -15,7 +15,7 @@ $color-accent: #ff4e50;
   // MOBILE FIRST LAYOUT
 
   .top-section {
-    background-image: url(/img/header.png);
+    background-image: url(/Exam-Practice/img/header.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,13 +111,13 @@ $color-accent: #ff4e50;
       flex-direction: column;
 
       &__one {
-        background-image: url(/img/step1desk.png);
+        background-image: url(/Exam-Practice/img/step1desk.png);
       }
       &__two {
-        background-image: url(/img/step2desk.png);
+        background-image: url(/Exam-Practice/img/step2desk.png);
       }
       &__three {
-        background-image: url(/img/step3desk.png);
+        background-image: url(/Exam-Practice/img/step3desk.png);
       }
 
       &__one,
