@@ -4,7 +4,7 @@
   padding: 0;
 }
 * .top-section {
-  background-image: url(/Exam-Practice/img/header.png);
+  background-image: url(/img/header.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -168,11 +168,11 @@
   font-size: 1.5rem;
 }
 * .section__bottom__input__button {
-  padding: 3rem 0 1rem;
+  padding: 3rem 0;
   text-align: center;
 }
 * .section__bottom__input__button a {
-  padding: 18px 70px;
+  padding: 18px 60px;
   background-color: #ff4e50;
   text-decoration: none;
   color: white;

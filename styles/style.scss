@@ -15,7 +15,7 @@ $color-accent: #ff4e50;
   // MOBILE FIRST LAYOUT
 
   .top-section {
-    background-image: url(/Exam-Practice/img/header.png);
+    background-image: url(/img/header.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -205,11 +205,11 @@ $color-accent: #ff4e50;
       }
 
       &__button {
-        padding: 3rem 0 1rem;
+        padding: 3rem 0;
         text-align: center;
 
         a {
-          padding: 18px 70px;
+          padding: 18px 60px;
           background-color: $color-accent;
           text-decoration: none;
           color: $color-primary;
